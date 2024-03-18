@@ -1,6 +1,5 @@
-# A function that retrieve an element at particular index
 #!/usr/bin/python3
-def element_at(my_list, idx): # A function that retrieve tha element at agiven index in a list
+def element_at(my_list, idx):
     if idx < 0:
         return (None)
     if idx > len(my_list) - 1:
